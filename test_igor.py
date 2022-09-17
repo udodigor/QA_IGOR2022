@@ -50,5 +50,4 @@ class TestStartPage:
         success_reg_nam = driver.find_element(by=By.XPATH, value=".//span[@class='text-white mr-2']")
         assert success_reg_nam.text == f"{random_loging}", f"Actual message: {success_reg_nam.text}"
         sleep(3)
-
-# Add new text to text 22222222
+#

@@ -20,7 +20,7 @@ class TestStartPage:
         - Verify error
         """
         # Create driver
-        driver = webdriver.Chrome(r"C:\Users\User\PycharmProjects\QA_IGOR2022\chromedriver.exe")
+        driver = webdriver.Chrome("/Users/ihorudod/PycharmProjects/Project_IGOR_tests/chromedriver")
 
         # Open page
         driver.get("https://qa-complex-app-for-testing.herokuapp.com/")
